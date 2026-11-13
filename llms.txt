@@ -1,0 +1,22 @@
+# Knowledge-Hub Muskuloskelettale Erkrankungen
+
+> Rechercheportal zu muskuloskelettalen Erkrankungen: gebündelte Live-Suchen über Fachdatenbanken, Register und Leitlinien - und täglich neue Studien zu Arthrose, Rheuma, Osteoporose und Rückenschmerz, auf Deutsch zusammengefasst.
+
+<!-- erzeugt von hub-scripts/studienseiten.py -->
+
+Hinweise zur Nutzung:
+- Der Hub zeigt täglich neue Studien aus PubMed zum Thema Muskuloskelettale Erkrankungen, mit deutscher Zusammenfassung und einer Einschätzung, ob sich die Ergebnisse auf Deutschland übertragen lassen. Bisher 6 Studien, zuletzt aufgenommen am 13.11.2026.
+- Auswahl und deutsche Zusammenfassung stammen von einer KI, ohne redaktionelle Prüfung (Kennzeichnung „Von KI ausgewählt und zusammengefasst“). Maßgeblich ist immer die Originalpublikation.
+- Bitte bei Zitaten die Originalstudie über https://pubmed.ncbi.nlm.nih.gov/<pmid>/ angeben und die deutsche Zusammenfassung als Quelle „MVF-Knowledge-Hub Muskuloskelettale Erkrankungen“ nennen.
+
+## Studien
+
+- [Alle Studien](https://muskel.m-vf.de/studie/): Übersicht nach Aufnahmemonat, je Studie eine eigene Seite unter https://muskel.m-vf.de/studie/<pmid>/
+- [Studienarchiv (JSON)](https://muskel.m-vf.de/studien-archiv.json): alle Studien; Felder pmid, title, sum (Zusammenfassung), result (Ergebnis), transfer (Übertragbarkeit), journal, author, year, pubdate, aufgenommen
+- [Studien-Feed (RSS)](https://muskel.m-vf.de/studien-feed.xml): die neuesten Studien
+
+## Mehr
+
+- [Startseite des Hubs](https://muskel.m-vf.de/): Live-Suche über die wichtigen Fachdatenbanken des Themas
+- [Alle Knowledge-Hubs](https://knowledge-hubs.m-vf.de/): Übersicht und llms.txt für alle Hubs
+- [Monitor Versorgungsforschung](https://www.monitor-versorgungsforschung.de/): Herausgeber, Fachzeitschrift für Versorgungsforschung
