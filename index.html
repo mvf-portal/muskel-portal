@@ -2236,71 +2236,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "14. Nov. 2026, 05:27 Uhr";
+const SNAP_DATE = "15. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Int J Biometeorol", year:"2026", pmid:"43024097",
-    author:"Garofoli R et al.", pubdate:"13.11.2026",
-    added:"13.11.2026",
-    title:"Kurtherapie bei Kreuzschmerz: Schmerz und Behinderung nach drei Wochen Thermalbad sinken messbar",
-    sum:"51 Patienten mit chronischem Kreuzschmerz erhielten an 18 Tagen 72 Thermalbäder in einer französischen Kurklinik; Schmerz, Behinderung und allgemeines Gesundheitsempfinden wurden vor und einen Monat nach Therapie gemessen.",
-    result:"Schmerzintensität sank von 51,4 auf 36,3 Punkte (p = 8,07 × 10−6), Behinderung verbesserte sich klinisch relevant. Dies legt nahe, dass Kurtherapie – zumindest bei älteren, übergewichtigen Frauen – nicht-spezifische Kreuzschmerzen lindert.",
-    transfer:"Frankreich, vergleichbares europäisches Versicherungssystem; Kurtherapie Teil der deutschen Sozialversicherung"
+    journal:"Healthcare (Basel)", year:"2026", pmid:"43028833",
+    author:"Akar M et al.", pubdate:"09.11.2026",
+    added:"14.11.2026",
+    title:"Ergonomie plus Übungen bei Lehrern: Invalidität und Burnout stärker reduziert",
+    sum:"Randomisierte Kontrollstudie mit 80 Lehrern verglich Ergonomietraining allein mit Ergonomietraining plus 12-wöchiges strukturiertes Dehn-, Kraft- und Stabilisierungsprogramm über 12 Wochen.",
+    result:"Oswestry-Index (ODI): Differenz in Veränderung −6,80 (95 % KI −9,22 bis −4,38) zugunsten Ergonomie+Übung; Nacken-Disability-Index −4,90 (KI −7,53 bis −2,27). Emotionale Erschöpfung um 2,63 Punkte stärker reduziert (p ≤ 0,013). VAS-Schmerz −1,18 (KI −1,48 bis −0,87). Mindestens 30 % Verbesserung: ODI 80 % vs. 10 %, NDI 90 % vs. 38 %.",
+    transfer:"Türkei, übertragbar auf deutsche Schulen und Prävention"
   },
   {
-    journal:"Medicine (Baltimore)", year:"2026", pmid:"43024291",
-    author:"Kim Y et al.", pubdate:"13.11.2026",
-    added:"13.11.2026",
-    title:"Schröpfen reduziert Lendenmuskelverspannung stärker als Schein: Elastographie zeigt signifikanten Unterschied",
-    sum:"68 Patienten mit chronischem Kreuzschmerz randomisiert (1:1) zu echtem (18–20 kPa) oder Schein-Schröpfen (0 kPa) über vier Sitzungen in zwei Wochen; primärer Endpunkt: Shear-Modulus-Änderung des M. multifidus mittels Shear-Wave-Elastographie vom Baseline bis Behandlungsende.",
-    result:"Signifikante Gruppe-×-Zeit-Interaktion (p &lt; 0,001): Schröpfen reduzierte Shear-Modulus von 60,23 ± 14,83 auf 10,84 ± 5,67 kPa, Schein von 57,54 ± 11,09 auf 39,41 ± 9,84 kPa; nach 1-Woche-Follow-up: 15,42 ± 7,41 vs. 44,88 ± 14,22 kPa. Schmerz zeigte ebenfalls Interaktion (p &lt; 0,001), aber klinisch kleiner Unterschied; Behinderung (ODI, p = 0,579) und Lebensqualität (EQ-5D-5L, p = 0,162) unterschieden sich nicht.",
-    transfer:"Südkorea, Messung mittels Elastographie; Schröpfen reduziert Muskelverspannung, nicht aber Behinderung oder Lebensqualität"
+    journal:"J Clin Med", year:"2026", pmid:"43030745",
+    author:"Kanbe K et al.", pubdate:"04.11.2026",
+    added:"14.11.2026",
+    title:"Ozoralizumab bei rheumatoider Arthritis: Anti-CCP und Erkrankungsdauer prägen Ansprechen",
+    sum:"Real-World-Analyse von 100 RA-Patienten unter Ozoralizumab (TNF-Blocker, seit 2022 in Japan) identifizierte klinische Faktoren, die Remission nach 24 Wochen vorhersagen.",
+    result:"DAS28-CRP fiel von 4,38 auf 2,59 nach 24 Wochen; Remissionsrate 59 %. Anti-CCP-Titer korrelierte mit DAS28-CRP bei Methotrexat-positiven Patienten. Erkrankungsdauer korrelierte mit Response bei Methotrexat-negativen und biologika-naiven Gruppen. Remission assoziiert mit kürzerer Erkrankungsdauer. 9 % Nebenwirkungen, alle reversibel. Hohe Anti-CCP oder frühe RA könnten Ozoralizumab-Effizienz anzeigen.",
+    transfer:"Japan, aber TNF-Blocker-Klasse weltweit etabliert, Befunde translatable"
   },
   {
-    journal:"Arch Osteoporos", year:"2026", pmid:"43018835",
-    author:"Azevedo SF et al.", pubdate:"12.11.2026",
-    added:"12.11.2026",
-    title:"QUALEFFO-41 portugiesisch validiert: Zuverlässiger Score für Lebensqualität bei Wirbelkörperfrakturen",
-    sum:"75 portugiesische Patienten (55 mit Wirbelkörperbruch, 20 Kontrollen) nahmen an Validierung des QUALEFFO-41 teil; Innenkonsistenz, Test-Retest-Zuverlässigkeit, Konstruktvalidität und Unterscheidungsfähigkeit wurden geprüft.",
-    result:"Cronbachs α = 0,90 (gesamter Score); Test-Retest ICC 0,75–0,98; Wirbelkörper-Patienten zeigten deutlich schlechtere Lebensqualität als Kontrollen (alle Domänen p &lt; 0,001, Effektstärken Cohen d 0,93–1,90); AUC-Werte für Diskriminanzfähigkeit 0,75–0,92.",
-    transfer:"Portugal, europäisches Gesundheitssystem; standardisierter Score für deutschsprachige Anpassung möglich"
+    journal:"Healthcare (Basel)", year:"2026", pmid:"43028735",
+    author:"Reimann M et al.", pubdate:"02.11.2026",
+    added:"14.11.2026",
+    title:"Ergonomische Faktoren für Arbeitsunfähigkeit bei Pflegekräften: 36 % hohes Risiko",
+    sum:"Querschnittsstudie mit 501 deutschen Pflegekräften identifizierte Risikofaktoren für langfristige Arbeitsunfähigkeit oder verminderte Arbeitsfähigkeit durch Muskelskelettstörungen mittels Nurse-Work Instability Scale.",
+    result:"36 % der Teilnehmer zeigten hohes Risiko für Arbeitsunfähigkeit. Unabhängige Risikofaktoren: Alter 50–59 Jahre (OR 2,8; p = 0,001), Schichtarbeit (OR 1,6; p = 0,026), unzureichende ergonomische Hilfsmittel (OR 1,8; p = 0,004), mäßige (OR 2,3; p &lt; 0,001) oder schlechte (OR 2,5; p = 0,033) Arbeitsergonomie. Mehr Ergonomieausstattung und Schulung könnten Arbeitsunfähigkeit früh abwenden.",
+    transfer:"Deutsche Daten der Berufsgenossenschaft Gesundheitsdienst und Wohlfahrtspflege"
   },
   {
-    journal:"Open Med (Wars)", year:"2026", pmid:"43022800",
-    author:"Wang Y et al.", pubdate:"12.11.2026",
-    added:"13.11.2026",
-    title:"Handgelenkarthrose in China stärker angestiegen als Knie: 404-%-Anstieg der Behinderungslast seit 1990",
-    sum:"Global Burden of Disease 2023-Datenbank; Trends der Jahre-mit-Behinderung (YLD) für Hand-, Knie-, Hüft- und andere Lokalisationen bei älteren Chinesen (≥60 Jahre) von 1990–2023 analysiert; Prognose bis 2035 mit Joinpoint- und Alter-Periode-Kohorte-Modellen.",
-    result:"Hand-Arthrose: YLD-Anstieg +404,45 %, altersstandardisierte Rate +60,17 %; Knie-Arthrose: höchste absolute Last (ASYR 2023 = 685,02/100.000), Frauen stärker betroffen; geschlechts- und altersabhängige Unterschiede bei allen Lokalisationen; Prognose 2024–2035: kontinuierlicher YLD-Anstieg, moderate ASYR-Veränderungen.",
-    transfer:"China, Global Burden of Disease bestätigt; deutsche Kliniken sollten zunehmende Hand-Arthrose erwarten"
+    journal:"Healthcare (Basel)", year:"2026", pmid:"43028744",
+    author:"Vrouva S et al.", pubdate:"02.11.2026",
+    added:"14.11.2026",
+    title:"EMG-Biofeedback reduziert Muskelskeletschmerz: Meta-Analyse bestätigt Wirksamkeit",
+    sum:"Systematische Übersicht und Meta-Analyse von 9 randomisierten Studien (8 in Meta-Analyse mit N = 298) evaluierte Schmerzreduktion durch elektromyographisches Biofeedback versus Kontrolle.",
+    result:"Standardisierte Mittelwertdifferenz (Hedges' g) = −0,6046 (95 % KI −0,8707 bis −0,3384; p &lt; 0,0001). Heteroginität niedrig (I² = 17,7 %). Vorhersageintervall völlig unter Null [−1,1026 bis −0,1065]. Kein Hinweis auf Publikationsbias. EMG-Biofeedback zeigt klinisch relevante Schmerzreduktion, besonders neben Krankengymnastik.",
+    transfer:"Systematische Übersicht, überwiegend europäische Studien, deutsche Anwendung breit möglich"
   },
   {
-    journal:"J Rehabil Med", year:"2026", pmid:"43010870",
-    author:"Andersen KS et al.", pubdate:"11.11.2026",
+    journal:"J Clin Med", year:"2026", pmid:"43030410",
+    author:"Yoshikawa A et al.", pubdate:"23.10.2026",
+    added:"14.11.2026",
+    title:"Rheumatoide Arthritis mit Lungenfibrose: Grundaktivität bestimmt 6-Monats-Verlauf",
+    sum:"Multizentrische japanische Real-World-Studie mit 278 RA-Patienten mit Lungenbeteiligung untersuchte, welche Basismerkmale mit mäßig-hoher Krankheitsaktivität nach 6 Monaten assoziiert sind.",
+    result:"148 Patienten erreichten Remission/niedrige Aktivität, 130 hatten mäßig-hohe Aktivität. Baseline-DAS28-ESR war unabhängig assoziiert (OR 2,01 pro Punkt; 95 % KI 1,57–2,57), ebenso Alter (OR 1,05 pro Jahr; KI 1,01–1,08). AUC für DAS28 allein 0,768, mit Alter 0,776. Höhere Baseline-Aktivität ist stärkster Prädiktor für persistierend hohe Aktivität.",
+    transfer:"Japan, vergleichbares Versicherungssystem, aber externe Validierung erforderlich"
+  },
+  {
+    journal:"Nat Commun", year:"2026", pmid:"43015281",
+    author:"Liu L et al.", pubdate:"15.10.2026",
     added:"11.11.2026",
-    title:"Stakeholder-Prioritäten für Kreuzschmerz-Rehabilitation: Sechs Cluster aus 125 Statements identifiziert",
-    sum:"Dänische Gruppe-Concept-Mapping-Studie mit 101 Teilnehmern (Patienten, Fachleute, Arbeitgeber) in Online-Brainstorming, Sortierung und Bewertung; 190 Ideen wurden in 125 Statements synthetisiert.",
-    result:"Sechs Cluster: Selbstmanagement, körperliches Training/Aktivität, Arbeitsplatzbeteiligung, interdisziplinäre Koordination, individuelle Unterstützung, erweiterte Diagnostik; 39 Statements (31,2 %) als sehr wichtig bewertet; alle Cluster erhielten hohe Wichtigkeitseinstufungen. Funktionieren im häuslichen Umfeld war nicht als eigenständige Domäne hervorgekommen.",
-    transfer:"Dänemark, ähnliches europäisches Versorgungssystem; multidisziplinäre, koordinierte Rehabilitation konsistent mit EULAR-Leitlinie"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"43017003",
-    author:"Wang Z et al.", pubdate:"28.10.2026",
-    added:"12.11.2026",
-    title:"Schwerarbeit und Bauchfett erhöhen Bandscheibenschaden-Risiko: UK-Biobank-Kohortenstudie mit 270.971 Arbeitnehmern",
-    sum:"UK-Biobank-Teilnehmer ohne bekannte Bandscheibenerkrankung (n = 270.971) wurden vom Baseline (2006–2010) bis 2015 nachverfolgt; Exposition waren schwere körperliche Arbeit und Waist-to-Height-Ratio (WHtR); Krankenhausaufnahmen wegen Bandscheibenstörung (ICD-10 M51) waren der primäre Endpunkt.",
-    result:"2.072 Bandscheiben-Ereignisse; pro 0,05 höhere WHtR: HR 1,13 (95%-KI 1,10–1,16); höhere Arbeitsfrequenz: HR 1,47 (1,31–1,65); kombiniert (hohe Arbeit + WHtR ≥0,5): HR 2,04 (1,75–2,38), absolute Risikodifferenz 4,03 pro 1.000 Personen in 5 Jahren.",
-    transfer:"UK Biobank mit Krankenhaus-Diagnosen vergleichbar deutschem EPRD-Datenmodell; Arbeitsbelastung und Adipositas sind modifizierbare Faktoren"
-  },
-  {
-    journal:"J Med Life", year:"2026", pmid:"43005938",
-    author:"Vrancianu CA et al.", pubdate:"Sept. 2026",
-    added:"10.11.2026",
-    title:"EKG-Marker zeigen subklinische Herzschädigung bei systemischer Sklerose: fragmentiertes QRS-Signal mit Arrhythmien assoziiert",
-    sum:"34 Patienten mit systemischer Sklerose ohne klinische Herzerkrankung erhielten EKG, 24-h-Holter-Monitor, Echokardiographie und kardiale Biomarker (NT-proBNP, Troponin I); Assoziation mit klinischen und biologischen Merkmalen wurde untersucht.",
-    result:"Fragmentiertes QRS in 21,9 % (7/32); assoziiert mit höheren ventrikulären Extrasystolen im Holter (bereinigt OR 1,0022, 95%-KI 1,0001–1,0044, p = 0,044). Höhere MVP-Scores korrelierten mit modifiziertem Rodnan-Score (β = 0,422, p = 0,026), CRP (β = 0,412, p = 0,028) und NT-proBNP (β = 0,557, p = 0,003).",
-    transfer:"Rumänien, vergleichbar deutschem System; subklinische kardiale Markers bei SSc-Monitoring relevant"
+    title:"IgA-Vaskulitis: Genetische Mechanismen in FCAR und IL6R identifiziert",
+    sum:"Genomweite Assoziationsstudie mit 2.170 IgA-Vaskulitis-Fällen und 5.928 Kontrollen sowie Transcriptom und Proteom identifizierte Risikovarianten und Master-Regulatoren der Erkrankung.",
+    result:"Signifikante Assoziation bei HLA-DRB1 (OR 1,55; p = 1,1 × 10⁻²⁵). Zwei neue Loci: FCAR (OR 1,51; p = 1,0 × 10⁻²⁰) und INPP5D (OR 1,34; p = 2,2 × 10⁻⁹). FCAR-Risikallele erhöhen FCAR-Expression; IL6R-Risiko-Haplotyp fördert lösliche IL6R-Freisetzung. 21 Master-Regulatoren in Myeloiden Zellen co-moduliert durch FCAR/INPP5D/IL6R.",
+    transfer:"International, Mechanismus auf Immunzellen bezogen, Basis für Therapieentwicklung"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2325,7 +2316,7 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "14.11.2026";
+const NEWS_STAND = "15.11.2026";
 const NEWS = [
   {titel:"Pflegeneuordnungsgesetz: Rheuma-Liga fordert Korrekturen", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/pflegeneuordnungsgesetz-rheuma-liga-fordert-korrekturen/"},
   {titel:"Höchststand bei dokumentierten Eingriffen: EPRD legt Jahresbericht vor", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/hoechststand-bei-dokumentierten-eingriffen-eprd-legt-jahresbericht-vor/"},
