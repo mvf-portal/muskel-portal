@@ -1,0 +1,52 @@
+{
+ "hub": "Knowledge-Hub Muskuloskelettale Erkrankungen",
+ "domain": "muskel.m-vf.de",
+ "datum": "2026-11-16",
+ "stand": "terminiert",
+ "titel": "MVF Muskuloskelettal-Newsletter 16.11.2026",
+ "betreff": "Neueste Studien - Muskuloskelettale Erkrankungen – 13. November 2026 bis 16. November 2026",
+ "anzahl": 25,
+ "pmids": [
+  "43034882",
+  "43034191",
+  "43032781",
+  "43003358",
+  "43000455",
+  "42994158",
+  "43030745",
+  "43030410",
+  "43028833",
+  "43028744",
+  "43028735",
+  "43015281",
+  "43024291",
+  "43024097",
+  "43022800",
+  "43018835",
+  "43017003",
+  "43010870",
+  "43005938",
+  "43020702",
+  "43020469",
+  "43019049",
+  "43019001",
+  "43018839",
+  "43009671"
+ ],
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099897",
+ "termin_utc": "2026-11-16T09:00:00+00:00",
+ "empfaenger": 2,
+ "listengroesse": 5850,
+ "beanstandungen": [],
+ "aussortiert": [],
+ "pool": {
+  "geholt": 220,
+  "bekannt": 23,
+  "pool": 55,
+  "gewaehlt": 6,
+  "neu": 6
+ },
+ "rubriken": {
+  "news": "f862ee169bca17d3"
+ }
+}
