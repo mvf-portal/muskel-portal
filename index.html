@@ -2252,62 +2252,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "19. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "20. Nov. 2026, 05:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Mod Rheumatol", year:"2026", pmid:"43049614",
-    author:"Terabe K et al.", pubdate:"18.11.2026",
-    added:"18.11.2026",
-    title:"Methotrexat mit Baricitinib bei rheumatoider Arthritis: gleiche Remissionsrate mit oder ohne MTX",
-    sum:"Propensity-Score-gewichtete Analyse von 296 RA-Patienten (167 mit, 129 ohne Methotrexat) aus einem japanischen Klinikregister, 52 Wochen Follow-up, zur Frage, ob MTX-Zugabe unter Baricitinib-Therapie einen Zusatznutzen bringt.",
-    result:"Kein signifikanter Unterschied in Behandlungsretention (76,3 % vs. 83,7 %), CDAI-Scores Woche 52 (5,7 [KI 4,2–7,1] vs. 5,8 [KI 4,5–7,1]) oder Remissionsraten (32,1 % vs. 34,5 %, p = 0,70). Trajectory Modeling zeigte vier Verlaufsmuster, MTX-Einsatz war nicht darüber verteilt.",
-    transfer:"Japan, Registerdaten; methodische Besonderheiten unterscheiden sich von deutschem EPRD-Setting."
+    journal:"Scand J Prim Health Care", year:"2026", pmid:"43056637",
+    author:"Sedelius H et al.", pubdate:"19.11.2026",
+    added:"19.11.2026",
+    title:"Gicht in der Hausarztpraxis: Patienten-Selbstmonitoring von Harnsäure ist machbar und akzeptiert",
+    sum:"Qualitative Mischmetho­den-Studie mit Interviews und Fragebogen bei niedergelassenen Fachleuten und Gicht-Patienten in schwedischen Hausarztpraxen; Machbarkeit und Akzeptanz eines Verfahrens zur Patienten-kontrollierten Harnsäure-Messung und Allopurinol-Dosierung wurden bewertet.",
+    result:"Alle Teilnehmer (Patienten und Personal) beurteilten das Mess-Melde-Titrations-Verfahren als akzeptabel, angemessen und machbar. Alle Patienten beendeten das Verfahren erfolgreich und erreichten Ziel-Harnsäurespiegel. Praktische Schwierigkeiten mit dem Harnsäure-Messgerät und begrenzte Zuversicht in die Genauigkeit wurden erwähnt. Patienten und Personal berichteten erhöhtes Krankheitswissen, weniger Angst vor Krankheitsprogression und Erlebnis individualisierter Versorgung.",
+    transfer:"Schweden, Primärversorgungssystem ähnlich deutschem Zugang"
   },
   {
-    journal:"J Bone Miner Res", year:"2026", pmid:"43049201",
-    author:"Kirk JM et al.", pubdate:"18.11.2026",
-    added:"18.11.2026",
-    title:"Osteoporose nach Fraktur: 8,7 % Therapiestart, Frauen schwarzer Herkunft um 35 % benachteiligt",
-    sum:"Längsschnitt-Analyse von 722.022 älteren Frauen ohne Osteoporose-Vorbehandlung, die zwischen 2010 und 2019 eine Fraktur erlitten (Medicare-Daten mit Nachverfolgung bis 2 Jahre) zum Vergleich der Therapieinitiierung stratifiziert nach Rasse/Ethnie.",
-    result:"8,7 % (62.890) initiierte Behandlung; 2-Jahres-Kaplan-Meier-Wahrscheinlichkeit: Asiatisch-Pazifiker 16,8 % (KI 15,9–17,7 %), Nicht-hispanische Schwarze 7,0 % (KI 6,6–7,3 %); adjustierte Hazard Ratio Schwarze vs. Weiße 0,65 (KI 0,62–0,68); Disparität größer bei Komorbiditäten.",
-    transfer:"USA, Medicare-System; Sicherheitsthema (Post-Fraktur-Versorgung) ist systemübergreifend relevant."
+    journal:"Rheumatology (Oxford)", year:"2026", pmid:"43053290",
+    author:"Knudsen LR et al.", pubdate:"18.11.2026",
+    added:"19.11.2026",
+    title:"Digitale Patientenschulung bei RA: kosteneffektiv und gleichwertig zur Face-to-Face-Beratung",
+    sum:"Randomisierte kontrollierte Studie mit 175 neu diagnostizierten RA-Patienten, die digitale oder persönliche Patientenschulung erhielten; Kosteneffektivität wurde aus teilweise gesellschaftlicher Perspektive über 12 Monate bewertet mit EQ-5D-5L als Outcome.",
+    result:"Digitale Schulung führte zu niedrigeren Gesundheitskosten (€9.322 vs. €9.886), minimale QALY-Gewinne (Differenz 0,013), dominant in beiden Modellen (bereinigtes ICER -€43.692/QALY, unbereinigt -€24.056/QALY). 47,3% (bereinigt) bzw. 52,7% (unbereinigt) der Bootstrap-Iterationen im SE-Quadranten (niedrigere Kosten, bessere Outcomes). Wahrscheinlichkeit der Kosteneffektivität 71,5% bei €22.665/QALY-Schwelle.",
+    transfer:"Dänemark, nationales Gesundheitssystem mit kostenneutralem Design"
   },
   {
-    journal:"BMC Rheumatol", year:"2026", pmid:"43046239",
-    author:"Vossen D et al.", pubdate:"16.11.2026",
-    added:"17.11.2026",
-    title:"Spezialisierte Sprechstunde für Rheumatologie und Schwangerschaft: 57 Patientinnen beraten",
-    sum:"Retrospektive Auswertung einer neu etablierten Sprechstunde für reproduktive Rheumatologie an einem deutschen Tertiärzentrum (Januar 2024 – April 2025) mit Dokumentation von Patientendemografien, Erkrankungsdaten, Therapieempfehlungen und Referrierungsgründen.",
-    result:"57 Patientinnen, Ø 33,3 Jahre, 57,9 % planend schwanger, 40,4 % schwanger, 1,8 % stillend; 94,7 % mit bestätigter inflammatorischer rheumatischer Erkrankung; 35,1 % benötigten DMARD-Modifikation, 19,3 % erhielten Screening auf fetale Bradykardie, 8,8 % Präeklampsie-Prophylaxe.",
-    transfer:"Deutsche Daten aus Rheumazentrum Ruhrgebiet; direkt übertragbares Versorgungsmodell."
+    journal:"Musculoskelet Sci Pract", year:"2026", pmid:"43014013",
+    author:"Larsen AG et al.", pubdate:"04.11.2026",
+    added:"11.11.2026",
+    title:"Trainingsvolumen und Hüftarthrose: mehr Training verbessert Schmerz und Funktion",
+    sum:"Prospektive Kohortenstudie mit 144 Patienten mit Hüftarthrose, die randomisiert zu 12 Wochen zweimal wöchentliches Widerstands- oder neuromuskuläres Training eingeteilt wurden; Assoziationen zwischen Trainingsumfang und Ergebnissen wurden untersucht.",
+    result:"Bei progressivem Widerstandstraining war jede Steigerung von 10.000 kg Trainingsvolumen assoziiert mit +1,13 Punkten HOOS-Schmerz (95%-KI: -0,01 bis 2,26) und +1,33 Punkten HOOS-ADL (95%-KI: 0,26 bis 2,39). Beim neuromuskulären Training war jede Steigerung von 2.000 Wiederholungen assoziiert mit +1,12 Punkten Schmerz und +1,92 Punkten ADL. Höheres Trainingsvolumen zeigte schwache positive Assoziationen mit klinischen Ergebnissen.",
+    transfer:"Dänemark, vergleichbares Versicherungssystem und Versorgungszugang"
   },
   {
-    journal:"RMD Open", year:"2026", pmid:"43039654",
-    author:"Reisch M et al.", pubdate:"16.11.2026",
-    added:"16.11.2026",
-    title:"Geschlechterparität in Rheumatologie: 28 Handlungsvorschläge mit Konsens in D/A/CH",
-    sum:"Strukturierter Konsensus-Prozess in zwei Phasen mit 22 Teilnehmenden aus deutschsprachigen Ländern zur Identifikation und Priorisierung von Strategien für Geschlechterparität in medizinischen und akademischen Arbeitsplätzen in der Rheumatologie.",
-    result:"28 Strategien erreichten Vollkonsens (88–100%): Schwerpunkte waren faire, transparente Arbeitsumgebung; Flexibilisierung der Arbeitszeiten; Mentoring und berufliche Netzwerke; Bewusstsein für Gender und Vielfalt; Vereinbarkeit von Sorgeaufgaben und Karriere; Sichtbarkeit von Rollenvorbildern; geschlechtssensible Medizin.",
-    transfer:"Deutschland, Österreich, Schweiz, Consensus-Papier; unmittelbar applicable."
+    journal:"Front Public Health", year:"2026", pmid:"43054055",
+    author:"Zhang Y et al.", pubdate:"04.11.2026",
+    added:"19.11.2026",
+    title:"Kognitive Verhaltenstherapie bei RA: reduziert Depression, Angst und Müdigkeit",
+    sum:"Systematische Übersicht und Metaanalyse von 12 randomisierten kontrollierten Studien mit 1.538 RA-Patienten; Effekte der kognitiven Verhaltenstherapie auf psychologische und physische Outcomes wurden gepooled.",
+    result:"CBT war assoziiert mit niedrigeren Depressionsleveln (SMD -0,35, 95%-KI -0,55 bis -0,14, niedrige Gewissheit), Angst (SMD -0,20, 95%-KI -0,32 bis -0,08, moderate Gewissheit) und Müdigkeit (SMD -0,44, 95%-KI -0,66 bis -0,22, niedrige Gewissheit). Bei 6-Monats-Nachverfolgung: Depression SMD -0,42 (95%-KI -0,63 bis -0,20), Angst SMD -0,22 (95%-KI -0,43 bis -0,01). Keine signifikanten Unterschiede für Schmerz, physische Funktion oder Lebensqualität. Erhebliche Heterogenität für Depression und Müdigkeit.",
+    transfer:"Internationale Studien, psychologische Intervention unabhängig von Versorgungssystem"
   },
   {
-    journal:"Front Med (Lausanne)", year:"2026", pmid:"43047986",
-    author:"Alshareef SA et al.", pubdate:"03.11.2026",
-    added:"18.11.2026",
-    title:"Regenerative Therapien bei Kniearthrose: MSC senkt Schmerzen, PRP nicht signifikant",
-    sum:"Systematische Übersichtsarbeit mit Metaanalyse von 28 klinischen Studien (2.515 Teilnehmer) zur Wirksamkeit von Plättchenreichem Plasma (PRP), mesenchymalen Stromazellen (MSC) und Extrazellulären Vesikeln (EV) bei Kniearthrose; Cochrane-Risk-of-Bias-Tool, Random-Effects-Modell.",
-    result:"PRP nicht assoziiert mit signifikanter Schmerzreduktion (SMD –0,45; KI –0,98 bis 0,08; p = 0,09); MSC mit signifikanter Schmerzreduktion (SMD –0,387; KI –0,634 bis –0,140; p = 0,002) und Lebensqualität (SMD 0,23; KI 0,02–0,44). EV zeigten heterogene, teils dosisabhängige Effekte; Sicherheitsbedenken kurzfristig gering.",
-    transfer:"Internationale Daten, 28 Studien; Pooling von Regenerativ-Therapien übertragbar auf deutsches Setting."
+    journal:"J Midlife Health", year:"2026", pmid:"43054939",
+    author:"Gupta M et al.", pubdate:"16.10.2026",
+    added:"19.11.2026",
+    title:"Vitamin-D-Mangel und Kniearthrose bei Frauen mittleren Alters: Prävention durch Supplementation",
+    sum:"Prospektive Kohortenstudie über 5 Jahre mit 420 Frauen ohne radiologische Arthrose zu Baseline; Vitamin-D-Status wurde jährlich gemessen, Defizitäre Patienten erhielten Supplementation (1.000–2.000 IE/Tag).",
+    result:"112 Frauen entwickelten Arthrose. Persistenter Vitamin-D-Mangel war mit höchstem Risiko assoziiert (postmenopausal defizitär: 40%, HR 2,30, 95%-KI 1,50–3,52). Korrektur des Mangels reduzierte Inzidenz auf 20% (absolute Risikoreduktion 16,3%, NNT 6,1). Anhaltende Suffizienz reduzierte Arthrose-Risiko auf 14% (HR 0,6, 95%-KI 0,4–0,9, p=0,01).",
+    transfer:"Indien, prospektives Studiendesign mit klaren Endpunkten übertragbar"
   },
   {
-    journal:"Age Ageing", year:"2026", pmid:"43046910",
-    author:"Feng H et al.", pubdate:"31.10.2026",
-    added:"18.11.2026",
-    title:"Muskuloskelettale Schmerzen im Alter: 2,8 bis 8,9 Jahre mit moderaten bis schweren Schmerzen",
-    sum:"Längsschnittstudie der Survey of Health, Ageing and Retirement in Europe (SHARE) mit 77.649 Teilnehmern ab 60 Jahren aus 18 Ländern (Wellen 5–9: 2013–2022) zur Berechnung der Lebenserwartung mit muskuloskelettalen Schmerzen verschiedener Schweregrade mittels Markov-Modelle.",
-    result:"Die Lebenserwartung mit moderate bis schweren muskuloskelettalen Schmerzen ab Alter 60 Jahre reichte von 2,81 Jahren (Niederlande) bis 8,85 Jahren (Frankreich), entsprechend 11,8–37,7 % der verbleibenden Lebensspanne. Frauen und Patienten mit Arthritis oder rheumatischen Erkrankungen sowie mit Übergewicht zeigten konsistent höhere Werte; Bildungs- und Vermögensunterschiede verstärkten die Disparität.",
-    transfer:"Europäische Länder, SHARE-Daten mit vollständiger Nachverfolgung; für Deutschland direkt übertragbar."
+    journal:"Arthritis Res Ther", year:"2026", pmid:"43053098",
+    author:"Yamashita S et al.", pubdate:"24.08.2026",
+    added:"19.11.2026",
+    title:"JAK-Inhibitoren plus Methotrexat bei RA: bessere Remission ohne Sicherheitsanstieg",
+    sum:"Registerstudie mit 1.315 RA-Patienten unter JAK-Inhibitoren-Therapie; Vergleich von Monotherapie (n=771) vs. Kombinationstherapie mit Methotrexat (n=544); Propensity-Score-Matched-Analyse und multivariable Regression.",
+    result:"Kombinationstherapie zeigte niedrigere DAS28(ESR)-Werte und höhere Remissionsraten (50,0% vs. 38,1%, p&lt;0,001). Multivariable Logistik-Regression: Methotrexat-Verwendung unabhängig assoziiert mit DAS28-Remission (OR 1,47, 95%-KI 1,06–2,04). Hospitalisierungen wegen schwerwiegender Nebenwirkungen bei 11,0%, nicht assoziiert mit Methotrexat-Einsatz. Methotrexat-Dosis nicht mit Krankheitsaktivität assoziiert.",
+    transfer:"Japan, großes Versorgungsregister mit Therapierealität-Daten"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2318,7 +2318,7 @@ const RADAR_STAND = "19.11.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#muskel";
 const RADAR_EIGENES = 15;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-12-31", "2026-12-14"], [], ["2027-01-07", "2027-02-11"], [], [], [], [], ["2027-02-10"], ["2027-01-08"], [], [], ["2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-25", "2027-01-11", "2027-01-11", "2027-02-11", "2027-01-07"], ["2026-11-19", "2027-03-10"], ["2027-01-27", "2027-03-10"], [], [], ["2026-12-14", "2026-12-02", "2027-01-07"], ["2026-11-19", "2026-11-19"], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08"]];
+const RADAR_FRISTEN = [["2026-12-31"], [], ["2027-01-07", "2027-02-11"], [], [], [], [], [], ["2027-01-08"], [], [], ["2027-10-15", "2027-10-15", "2027-10-15", "2027-01-07", "2027-01-26", "2027-01-26", "2027-05-07"], ["2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2027-05-25", "2027-01-07", "2027-02-11", "2027-10-08"], ["2026-11-19", "2027-02-03", "2027-02-03", "2027-03-10"], ["2027-03-10", "2027-01-27"], [], [], ["2026-12-14", "2026-12-02", "2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08", "2027-01-07"], ["2026-11-19", "2026-11-19"], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-07-02", "2027-01-08"]];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
@@ -2332,9 +2332,9 @@ const ZUL_DIGA = 0;
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "19.11.2026";
+const NEWS_STAND = "20.11.2026";
 const NEWS = [
-  {titel:"Pflegeneuordnungsgesetz: Rheuma-Liga fordert Korrekturen", datum:"2026-11-03", url:"https://www.monitor-versorgungsforschung.de/news/pflegeneuordnungsgesetz-rheuma-liga-fordert-korrekturen/"},
+  {titel:"Sozialstaatsreform: Rheuma-Liga warnt vor Mehrfachbelastungen", datum:"2026-11-19", url:"https://www.monitor-versorgungsforschung.de/news/sozialstaatsreform-rheuma-liga-warnt-vor-mehrfachbelastungen/"},
   {titel:"Höchststand bei dokumentierten Eingriffen: EPRD legt Jahresbericht vor", datum:"2026-10-26", url:"https://www.monitor-versorgungsforschung.de/news/hoechststand-bei-dokumentierten-eingriffen-eprd-legt-jahresbericht-vor/"},
 ];
 // === NEWS-BLOCK-ENDE ===
