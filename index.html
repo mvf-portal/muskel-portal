@@ -2252,7 +2252,7 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "23. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "23. Nov. 2026, 05:26 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
@@ -2263,6 +2263,15 @@ const STUDIES = [
     sum:"Multidisziplinäre Konsensusempfehlungen von sechs französischen Fachgesellschaften zur Indikation und Durchführung von GAE bei refraktärer Kniearthrose.",
     result:"Elf spezifische Empfehlungen etabliert: GAE indiziert bei Patienten mit schmerzhafter KOA ohne andere Schmerzursachen und bei Therapieversagen unter optimaler medizinischer Behandlung. Prätherapeutische Synovitis sollte mittels Doppler-Ultraschall oder kontrastgestützter MRT untersucht werden. Interventionalradiologen sollten prä- und post-GAE-Konsultationen in Zusammenarbeit mit Muskelskelettklinikern durchführen. Keine standardisierte GAE-Technik; individuelle Anpassung empfohlen. Wiederholung in Ausnahmefällen möglich. Keine Kontraindikationen für nachfolgende Knieoperationen nach angemessener Wartezeit (3 Monate). GAE kann bei persistenten Schmerzen nach TEP erwogen werden.",
     transfer:"Frankreich, vergleichbare europäische Versorgungsstruktur; Leitlinie richtungsweisend für Implementierung in Deutschland"
+  },
+  {
+    journal:"Front Nutr", year:"2026", pmid:"43065765",
+    author:"Wang X et al.", pubdate:"06.11.2026",
+    added:"21.11.2026",
+    title:"Lebensmittel-Peptide zur Osteoporose-Prävention über die Darm-Knochen-Achse",
+    sum:"Narrative Übersichtsarbeit zu Mechanismen, durch die Lebensmittel-Peptide Knochenschutz vermitteln könnten, mit Fokus auf Gut-Mikrobiota und Immuntoleranz.",
+    result:"Auf Basis von In-vitro- und Tierdaten werden folgende Mechanismen diskutiert: Modulation von Darmmikrobiota und deren Metaboliten, Verbesserung der Immune-Inflammatory-Response und Aufrechterhaltung der intestinalen Homöostase als Hebel für Knochenhomöostase. Die Autoren betonen, dass klinische Validierung noch ausstehe und dass die Evidenz derzeit überwiegend aus experimentellen Modellen stammt.",
+    transfer:"China, Mechanismus-Review ohne klinische Daten; Darm-Knochen-Achse ist bevölkerungsabhängig"
   },
   {
     journal:"Ann Rheum Dis", year:"2026", pmid:"43064606",
@@ -2283,15 +2292,6 @@ const STUDIES = [
     transfer:"UK-Daten, vergleichbare TNF-Inhibitor-Versorgung; Prädiktion lokal validierbar"
   },
   {
-    journal:"Front Nutr", year:"2026", pmid:"43065765",
-    author:"Wang X et al.", pubdate:"06.11.2026",
-    added:"21.11.2026",
-    title:"Lebensmittel-Peptide zur Osteoporose-Prävention über die Darm-Knochen-Achse",
-    sum:"Narrative Übersichtsarbeit zu Mechanismen, durch die Lebensmittel-Peptide Knochenschutz vermitteln könnten, mit Fokus auf Gut-Mikrobiota und Immuntoleranz.",
-    result:"Auf Basis von In-vitro- und Tierdaten werden folgende Mechanismen diskutiert: Modulation von Darmmikrobiota und deren Metaboliten, Verbesserung der Immune-Inflammatory-Response und Aufrechterhaltung der intestinalen Homöostase als Hebel für Knochenhomöostase. Die Autoren betonen, dass klinische Validierung noch ausstehe und dass die Evidenz derzeit überwiegend aus experimentellen Modellen stammt.",
-    transfer:"China, Mechanismus-Review ohne klinische Daten; Darm-Knochen-Achse ist bevölkerungsabhängig"
-  },
-  {
     journal:"Fr J Urol", year:"2026", pmid:"43064450",
     author:"Tamarelle B et al.", pubdate:"Nov. 2026",
     added:"20.11.2026",
@@ -2300,20 +2300,29 @@ const STUDIES = [
     result:"Offene Chirurgie und Laparoskopie zeigten höchste RULA-Scores (6–7/7, Hochrisiko) mit Auswirkungen auf Wirbelsäule und Schultergürtel. Roboterchirurgie zeigte günstigere spinale Profile (4/7) aber spezifische digitale und kognitive Last. Laserureterokopie Scores 3/7 (niedrig), aber 80 dB(A) Lärm als unterschätzte Fatigue-Quelle. Flexible Ureterokopie 5–6/7, verstärkt durch Organisationsfaktoren. Schlussfolgerung: MSD-Prävention erfordert differenzierte Ansätze zu Arbeitsumgebung, OP-Organisierung und Ergonomie-Schulung (derzeit in Curricula fehlt).",
     transfer:"Frankreich, europäisches Gesundheitssystem; Prävention direkt auf deutsche OP-Strukturen anwendbar"
   },
+  {
+    journal:"Bone Res", year:"2026", pmid:"43064723",
+    author:"Xie W et al.", pubdate:"20.11.2026",
+    added:"20.11.2026",
+    title:"Wnt1-Signalweg treibt Knochenumbau und Arthroseprogression voran",
+    sum:"Tierstudie und molekulare Analyse an Knochengewebe: Der Wnt1-Signalweg wird bei Arthrose hochreguliert und hat zeitabhängig gegensätzliche Effekte – frühe Überexpression schützt den Knorpel nicht, aber späte fördert Knochenverhärtung und Arthroseverschlimmerung.",
+    result:"Frühe Wnt1-Induktion in Osteoblasten erhöht die subchondrale Knochenmasse, späte Induktion verstärkt die Arthroseschwere durch Knochensklerose; Wnt1-Mutation (Osteogenesis imperfecta XV) verzögert Knochenverlust und Arthrosefortschreiten – identifiziert Wnt1 als therapeutisches Ziel für subchondrale Knochenpathologie.",
+    transfer:"Grundlagen in Tiermodell, Weg zur Klinik noch offen; Validierung am Menschen erforderlich."
+  },
 ];
 // === STUDIES-BLOCK-ENDE ===
 
 // Offene Foerderausschreibungen zum Thema — taeglich von scripts/radar_hinweis.py
 // === RADAR-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const RADAR_STAND = "19.11.2026";
+const RADAR_STAND = "23.11.2026";
 const RADAR_URL = "https://wissen.m-vf.de/ausschreibungen.html#muskel";
 const RADAR_EIGENES = 15;
 const RADAR_ZUHAUSE = false;
-const RADAR_FRISTEN = [["2026-12-31"], [], ["2027-01-07", "2027-02-11"], [], [], [], [], [], ["2027-01-08"], [], [], ["2027-10-15", "2027-10-15", "2027-10-15", "2027-01-07", "2027-01-26", "2027-01-26", "2027-05-07"], ["2027-01-07", "2027-01-07", "2027-01-11", "2027-01-25", "2027-05-25", "2027-01-07", "2027-02-11", "2027-10-08"], ["2026-11-19", "2027-02-03", "2027-02-03", "2027-03-10"], ["2027-03-10", "2027-01-27"], [], [], ["2026-12-14", "2026-12-02", "2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08", "2027-01-07"], ["2026-11-19", "2026-11-19"], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-07-02", "2027-01-08"]];
+const RADAR_FRISTEN = [["2026-12-31", "2026-12-14"], ["2027-01-20"], ["2027-01-07", "2027-02-11"], [], ["2026-11-30"], [], [], [], [], [], [], ["2026-12-31", "2027-01-07", "2027-01-26", "2027-01-26"], ["2027-01-07", "2027-01-07", "2027-01-07", "2027-01-25", "2027-02-11", "2027-01-07", "2027-01-07", "2027-01-07"], ["2027-02-03", "2027-02-03"], ["2027-01-27", "2027-03-10"], [], [], ["2026-12-14", "2026-12-02", "2027-01-07"], [], ["2027-01-11", "2027-01-08", "2027-01-08", "2027-01-08"]];
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "22.11.2026";
+const ZUL_STAND = "23.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
