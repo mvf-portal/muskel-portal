@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://muskel.m-vf.de/</loc><lastmod>2026-11-24</lastmod></url>
-<url><loc>https://muskel.m-vf.de/studie/</loc><lastmod>2026-11-24</lastmod></url>
+<url><loc>https://muskel.m-vf.de/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://muskel.m-vf.de/studie/</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://muskel.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://muskel.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://muskel.m-vf.de/ueber.html</loc></url>
+<url><loc>https://muskel.m-vf.de/studie/43077103/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://muskel.m-vf.de/studie/43077004/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://muskel.m-vf.de/studie/43077003/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://muskel.m-vf.de/studie/43076388/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://muskel.m-vf.de/studie/43074814/</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://muskel.m-vf.de/studie/43071296/</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://muskel.m-vf.de/studie/43071284/</loc><lastmod>2026-11-24</lastmod></url>
 <url><loc>https://muskel.m-vf.de/studie/43071100/</loc><lastmod>2026-11-24</lastmod></url>
