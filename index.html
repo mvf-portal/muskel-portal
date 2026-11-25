@@ -2404,9 +2404,27 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "25. Nov. 2026, 05:01 Uhr";
+const SNAP_DATE = "25. Nov. 2026, 05:26 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"Calcif Tissue Int", year:"2026", pmid:"43077103",
+    author:"Zhang K et al.", pubdate:"24.11.2026",
+    added:"24.11.2026",
+    title:"Osteoporose-Neudiagnose: 2,15-fach erhöhte Sterblichkeit unabhängig von Morbidität",
+    sum:"Target-Trial-Emulation mit UK-Biobank-Daten: 10.104 mit neu diagnostizierter Osteoporose, 40.416 Kontrollen, Propensity-Score-gewichtet, Verfolgung über Jahrzehnte.",
+    result:"HR für Gesamtsterblichkeit 2,15 (95%-KI 1,97–2,35); für kardiovaskuläre Ereignisse HR 1,45 (1,31–1,60). Hochrisiko-Multimorbidität (Fine-Gray-Modell) subdistribution HR 1,26 (1,15–1,39). Effektmodifikation durch Geschlecht signifikant.",
+    transfer:"UK-Biobank mit NHS-Daten, aber Epidemiologie der Osteoporose-Mortalität international anwendbar"
+  },
+  {
+    journal:"Rheumatol Ther", year:"2026", pmid:"43077004",
+    author:"Ali P et al.", pubdate:"24.11.2026",
+    added:"24.11.2026",
+    title:"Löfgren-Syndrom: Ultraschall zeigt periarthritische, nicht-erosive Beteiligung",
+    sum:"Retrospektive Auswertung von 56 Patienten mit Löfgren-Syndrom (Sarkoidose-Variante) zur muskuloskelettalen Beteiligung mittels Klinik, Labor, Ultraschall und Radiologie.",
+    result:"Von 38 mit Fußgelenks-US: 78,8 % Periarthritis, 34,2 % Erguss, 28,9 % Tenosynovitis, 12,9 % Synovitis, 0 % Erosionen. Periarthritis korrelierte mit erhöhtem CRP/BSG, nicht ACE. Keine Schulter-Arthralgie berichtet.",
+    transfer:"Deutsche Klinikdaten (Mainz), rheumatologische Spezialisierung direkt anwendbar"
+  },
   {
     journal:"Rheumatol Ther", year:"2026", pmid:"43077003",
     author:"Bessette L et al.", pubdate:"24.11.2026",
@@ -2426,24 +2444,6 @@ const STUDIES = [
     transfer:"USA-Praxis, aber Prinzip (Kliniker-Verhalten, nicht Patienten-Faktoren) ist international relevant"
   },
   {
-    journal:"Rheumatol Ther", year:"2026", pmid:"43077004",
-    author:"Ali P et al.", pubdate:"24.11.2026",
-    added:"24.11.2026",
-    title:"Löfgren-Syndrom: Ultraschall zeigt periarthritische, nicht-erosive Beteiligung",
-    sum:"Retrospektive Auswertung von 56 Patienten mit Löfgren-Syndrom (Sarkoidose-Variante) zur muskuloskelettalen Beteiligung mittels Klinik, Labor, Ultraschall und Radiologie.",
-    result:"Von 38 mit Fußgelenks-US: 78,8 % Periarthritis, 34,2 % Erguss, 28,9 % Tenosynovitis, 12,9 % Synovitis, 0 % Erosionen. Periarthritis korrelierte mit erhöhtem CRP/BSG, nicht ACE. Keine Schulter-Arthralgie berichtet.",
-    transfer:"Deutsche Klinikdaten (Mainz), rheumatologische Spezialisierung direkt anwendbar"
-  },
-  {
-    journal:"Calcif Tissue Int", year:"2026", pmid:"43077103",
-    author:"Zhang K et al.", pubdate:"24.11.2026",
-    added:"24.11.2026",
-    title:"Osteoporose-Neudiagnose: 2,15-fach erhöhte Sterblichkeit unabhängig von Morbidität",
-    sum:"Target-Trial-Emulation mit UK-Biobank-Daten: 10.104 mit neu diagnostizierter Osteoporose, 40.416 Kontrollen, Propensity-Score-gewichtet, Verfolgung über Jahrzehnte.",
-    result:"HR für Gesamtsterblichkeit 2,15 (95%-KI 1,97–2,35); für kardiovaskuläre Ereignisse HR 1,45 (1,31–1,60). Hochrisiko-Multimorbidität (Fine-Gray-Modell) subdistribution HR 1,26 (1,15–1,39). Effektmodifikation durch Geschlecht signifikant.",
-    transfer:"UK-Biobank mit NHS-Daten, aber Epidemiologie der Osteoporose-Mortalität international anwendbar"
-  },
-  {
     journal:"Front Med (Lausanne)", year:"2026", pmid:"43074814",
     author:"Colombo MG et al.", pubdate:"09.11.2026",
     added:"24.11.2026",
@@ -2451,6 +2451,15 @@ const STUDIES = [
     sum:"Retrospektive Auswertung von 22.751 deutschen Versichertendaten (2011–2020) zur Umsetzung der 2017er PMR-Leitlinie in der Praxis und zu Geschlechtsunterschieden.",
     result:"99,8 % wurden von Hausarzt allein (16,2 %) oder mit Facharzt (83,6 %) betreut; 91,3 % erhielten Glukokortikoide. Allerdings erhielten 22,7 % niedrigere und 30,6 % höhere Initialdosen als empfohlen. Physiotherapie wurde nur 33,8 % verschrieben. Geschlechtsunterschiede waren klinisch vernachlässigbar.",
     transfer:"Deutsche Versicherungsdaten, direkt auf deutsches Versorgungssystem übertragbar"
+  },
+  {
+    journal:"Lancet Rheumatol", year:"2026", pmid:"43072986",
+    author:"Ciancio A et al.", pubdate:"Dez. 2026",
+    added:"23.11.2026",
+    title:"Adaptive Plattform-Trials für Psoriasis-Arthritis könnten Behandlung individualisieren",
+    sum:"Konzeptionelles Rahmenwerk zur Gestaltung von adaptiven Plattform-Trials für die heterogene Psoriasis-Arthritis, um Vergleiche mehrerer Therapiestrategien, Phenotypisierung und Präzisionsmedizin zu ermöglichen.",
+    result:"Review ohne Fallzahlen; empirische Daten fehlen. Adaptive Designs könnten Futilität einzelner Therapien früher erkennen und responsive Subgruppen expandieren, aber keine klinischen Effekte quantifiziert. Zentrale Empfehlungen: flexible Endpunkt-Selektion, Biomarker-Integration, ethische Rahmenbedingungen und Machbarkeitsprüfung für zukünftige Trials vorgeschlagen.",
+    transfer:"Europäische und kanadische Autoren, Konzept auf internationale Standards fokussiert"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -2465,7 +2474,7 @@ const RADAR_FRISTEN = [["2026-12-31", "2027-01-08"], ["2027-01-20"], ["2027-01-0
 // === RADAR-BLOCK-ENDE ===
 
 // === ZULASSUNG-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const ZUL_STAND = "24.11.2026";
+const ZUL_STAND = "25.11.2026";
 const ZUL_EIGENE = 0;
 const ZUL_GUTACHTEN = 0;
 const ZUL_ZULASSUNG = 0;
